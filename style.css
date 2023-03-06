@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #57439C ;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  
+}
+.card{
+    background-color: #fff;
+    border-radius: 4%;
+    box-shadow: 0px 18px 12px -5px rgba(0, 0, 0, 0.13);
+}
+.card-content{
+    padding: 30px;
+}
+.card-image{
+    padding: 30px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+.card-image img{
+    max-width: 200px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-family: 400;
+    font-size: 1.3em;
+}
+p{
+font-family: 'Poppins', sans-serif;
+   font-size: 1em;
+}
+
+/* add different colors to different cards without ids */
+#card1 .card-image{
+    background-color:  #F78AE0;
+}
+#card2 .card-image{
+    background-color: #B0F566;
+}
+#card3 .card-image{
+    background-color: #6638F0;
+}
